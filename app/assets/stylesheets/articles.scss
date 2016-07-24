@@ -1,0 +1,46 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navelement{
+	background-color:#D24D57;
+	width:15%;
+	margin:1%;
+	float:left;
+	display:block;
+	text-align:center;
+	padding:1% 4%;
+	
+}
+.navelement > a{
+	color:white;
+}
+
+
+.container{
+	background-color:#ECECEC;
+	color: #6C7A89;
+	width: 94%;
+	margin:1%;
+	padding:2%;
+}
+.container > .big-title{
+	text-align: center;
+	font-size:400%;
+}
+.admin-only{
+	clear: both;
+	width:10%;
+	text-align: center;
+	margin:1%;
+	padding:1%;
+	background-color:#87D37C;
+	
+}
+.admin-only > a{
+	text-decoration:none;
+	color:white;
+	font-size:150%;
+
+}
+
